@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang='en'>
-<head>
+    <head>
+        <link rel="stylesheet" href="first-css-project.css">
+    </head>
+<header>
    <h1> Welcome to my first html project</h1> 
    <a href="#Bottom">Go to Bottom</a>
-</head>
+</header>
 <body>
 <h2> This is the first sub heading</h2>
 <p> This is the first paragraph</p>
-<img src="https://www.hollywoodreporter.com/wp-content/uploads/2024/08/Taylor-Swift-London-Main-2024.jpg?w=1296&h=730&crop=1" alt="a photograph of Taylor Swift in a blue body suit on stage">
-<h2> This is an unordered list </h2>
-<ul>
+<img src="https://www.hollywoodreporter.com/wp-content/uploads/2024/08/Taylor-Swift-London-Main-2024.jpg?w=1296&h=730&crop=1" alt="a photograph of Taylor Swift in a blue body suit on stage" class="centre">
+
+<div class="grid-container">
+    <h2 class="grid-item"> This is an unordered list </h2>
+  
+<ul class="grid-item">
     <li> this </li>
     <li> is </li>
     <li> an </li>
@@ -25,8 +31,10 @@
     <li> need </li>
 
 </ul>
-<h2> This is an ordered list</h2>
-<ol>
+</div>
+<div class="grid-container">
+<h2 class="grid-item"> This is an ordered list</h2>
+<ol class="grid-item">
     <li> look </li>
     <li> I'm </li>
     <li> in </li>
@@ -43,12 +51,16 @@
     <li> few </li>
     <li> more</li>
 </ol>
-<h2> Heard you wanted a link that opens in this tab?</h2>
-<a target="_self" href="https://www.taylorswift.com/" >An icon</a>
-<h2> Or one that opens in a new tab? </h2>
-<a target="_blank" href="https://www.taylorswift.com/" >In case you missed it</a>
+</div>
+<div class="grid-container">
+<h2 class="grid-item"> Heard you wanted a link that opens in this tab?</h2>
+<a target="_self" href="https://www.taylorswift.com/" class="grid-item">An icon</a>
+<h2 class="grid-item"> Or one that opens in a new tab? </h2>
+<a target="_blank" href="https://www.taylorswift.com/" class="grid-item">In case you missed it</a>
+</div>
+
 </body>
-<foot id="Bottom">
+<foot id="Bottom" class="bottom">
 <p> Hi its the end of the page </p>
 </foot>
 
